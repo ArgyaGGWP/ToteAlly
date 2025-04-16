@@ -45,13 +45,13 @@ function gacha() {
               resultImage = "putih1.jpg";
             } if else (probability < 0.6) {
               resultText = "Anda mendapatkan item BIASA.";
-              resultImage = "putih1.jpg";
+              resultImage = "putih2.jpg";
             } if else (probability < 0.8) {
               resultText = "Anda mendapatkan item BIASA.";
-              resultImage = "putih1.jpg";
+              resultImage = "putih3.jpg";
             }  else {
               resultText = "Anda mendapatkan item BIASA.";
-              resultImage = "putih1.jpg";
+              resultImage = "putih4.jpg";
             }
   
             result.innerText = resultText;
