@@ -40,13 +40,13 @@ function gacha() {
             if (probability < 0.2) {
               resultText = "Selamat! Anda mendapatkan item LANGKA!";
               resultImage = "langka.jpg";
-            } if else (probability < 0.4) {
+            } else if (probability < 0.4) {
               resultText = "Anda mendapatkan item BIASA.";
               resultImage = "putih1.jpg";
-            } if else (probability < 0.6) {
+            } else if (probability < 0.6) {
               resultText = "Anda mendapatkan item BIASA.";
               resultImage = "putih2.jpg";
-            } if else (probability < 0.8) {
+            } else if (probability < 0.8) {
               resultText = "Anda mendapatkan item BIASA.";
               resultImage = "putih3.jpg";
             }  else {
