@@ -38,8 +38,8 @@ function gacha() {
             let resultText, resultImage;
   
             if (probability < 0.2) {
-              resultText = "Selamat! Anda mendapatkan item LANGKA!";
-              resultImage = "Mockup Desain 1 Gold.png";
+              resultText = "Selamat! Anda mendapatkan item BIASA!";
+              resultImage = "Mockup Desain 1 Black.png";
             } else if (probability < 0.4) {
               resultText = "Anda mendapatkan item BIASA.";
               resultImage = "Mockup Desain 1 Black.png";
