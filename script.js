@@ -39,19 +39,19 @@ function gacha() {
   
             if (probability < 0.2) {
               resultText = "Selamat! Anda mendapatkan item LANGKA!";
-              resultImage = "langka.jpg";
+              resultImage = "Mockup Desain 1 Black.png";
             } else if (probability < 0.4) {
-              resultText = "Anda mendapatkan item BIASA.";
-              resultImage = "putih1.jpg";
+              resultText = "Anda mendapatkan item LANGKA.";
+              resultImage = "Mockup Desain 1 Gold.png";
             } else if (probability < 0.6) {
               resultText = "Anda mendapatkan item BIASA.";
-              resultImage = "putih2.jpg";
+              resultImage = "Mockup Desain 2 Gold.png";
             } else if (probability < 0.8) {
               resultText = "Anda mendapatkan item BIASA.";
-              resultImage = "putih3.jpg";
+              resultImage = "Mockup Desain 3 Black.png";
             }  else {
               resultText = "Anda mendapatkan item BIASA.";
-              resultImage = "putih4.jpg";
+              resultImage = "Mockup DEsain 3 Gold.png";
             }
   
             result.innerText = resultText;
