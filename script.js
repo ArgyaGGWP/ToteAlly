@@ -50,8 +50,8 @@ function gacha() {
               resultText = "Anda mendapatkan item BIASA.";
               resultImage = "Mockup Desain 3 Black.png";
             }  else {
-              resultText = "Anda mendapatkan item LANGKA.";
-              resultImage = "Mockup Desain 3 Gold.png";
+              resultText = "Anda mendapatkan item BIASA.";
+              resultImage = "Mockup Desain 1 Black.png";
             }
   
             result.innerText = resultText;
