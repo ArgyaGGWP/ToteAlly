@@ -41,7 +41,7 @@ function gacha() {
               resultText = "Selamat! Anda mendapatkan item LANGKA!";
               resultImage = "Mockup Desain 1 Black.png";
             } else if (probability < 0.4) {
-              resultText = "Anda mendapatkan item LANGKA.";
+              resultText = "Anda mendapatkan item BIASA.";
               resultImage = "Mockup Desain 1 Gold.png";
             } else if (probability < 0.6) {
               resultText = "Anda mendapatkan item BIASA.";
@@ -50,7 +50,7 @@ function gacha() {
               resultText = "Anda mendapatkan item BIASA.";
               resultImage = "Mockup Desain 3 Black.png";
             }  else {
-              resultText = "Anda mendapatkan item BIASA.";
+              resultText = "Anda mendapatkan item LANKA.";
               resultImage = "Mockup DEsain 3 Gold.png";
             }
   
